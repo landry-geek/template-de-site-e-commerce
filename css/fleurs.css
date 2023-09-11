@@ -1,0 +1,523 @@
+/*Nen'ny header rehetra*/
+header{
+    background-color: #31382e;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+    width: 70%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.accueil, .propos, .fleurs{
+    font-size: 3.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #159133;
+    font-weight: bold;
+}
+.accueil:hover, .propos:hover, .fleurs:hover{
+    color: #D0EBC7;
+}
+.boribory, .boribory2{
+    border: 0px solid black;
+    border-radius: 50%;
+    background-color: #159133;
+    width: 4vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.boribory:hover{
+   background-color: #D0EBC7; 
+}
+
+.dropdowna{
+    position: relative;/* atao relative amle dropdown-content hatao absolute le atao devant*/
+    display: inline-block;/*atao inline-block mino ah fa azoko antsaina sady inline le izy nefa izy block kkkk*/
+}
+.dropdowna-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 40vh;
+    width: 18vw;
+    background-color:#e9f3e6;
+    border-radius: 10%;
+    box-shadow: 5px 8px 20px black;
+}
+.dropdowna:hover .dropdowna-content{/*c-à-d ref mihover am dropdown de dropdown-content no mi-assumer ny action
+    zay no dikanle espace */
+    display: block;
+}
+.contenupli{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    font-size: 80%;
+}
+.bouton1et2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: space-around;
+}
+.seconnecter1{
+    background-color: #159133;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    height: 40%;
+    width: 120%;
+    border: 0px;
+    border-radius: 8%;
+    color: #e9f3e6;
+    font-size: 120%;
+}
+.sinscrire1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1.7px solid #159133;
+    color: #159133;
+    height: 40%;
+    width: 120%;
+    border-radius: 8%;
+    font-size: 120%;
+}
+.menuburger{
+    display: none;
+    width: 10%;
+    position: absolute;
+    top:11px;/*rehefa hilalao top sy left right de tsy maintsy manao position absolute*/
+    right: 20px;
+}
+/*Nen'ny header rehetra*/
+
+
+/*Nen'ny footer  rehetra*/
+footer{
+    background-color: #31382e;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.navigationblala{
+    margin-top: 0.8%;
+    padding-top: 0;
+    height: auto;
+    min-height: 31vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.florablala, .contactblala{
+    margin-top: 0.8%;
+    height: auto;
+    min-height: 31vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.textblala, .text2blala{
+    margin-top: 2%;
+}
+.formulaireblala{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+#email, #pwd{
+    width: 85%;
+}
+#submit{
+    width: 50%;
+    min-width: 104px;
+}
+.logoblala, .navblala, .contblala{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navigationblala{
+    padding-left: 5%;
+}
+.accueilblala, .aproposblala, .fleursblala{
+    margin-top: 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.misynymessage{
+    font-size: 0.7rem;
+    color: red;
+}
+.miniflora{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.minaccueil, .minpropos, .minfleur{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+.miniflora, .contacticon, .miniform, .mininav{
+    display: none;
+}
+/*Nen'ny footer  rehetra*/
+
+/*nen'ny seciton1 rehetra*/
+.section1{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 11vh;
+    background-color: #e9f3e6;
+}
+.misynysoratraa{
+    display: flex;
+}
+.misynysoratraa a{
+    color: rgb(32, 34, 32);
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 2vw;
+   
+}
+#searchflower{
+    width: 33vw;
+    height: 8.5vh;
+}
+.tsipika1{
+    background-color: rgb(32, 34, 32);
+    height: 1.5vh;
+    width: 4vw;
+}
+.tsipika2{
+    background-color: rgb(32, 34, 32);
+    height: 1.5vh;
+    width: 7vw;
+    display: none;
+}
+.tsipika3{
+    background-color: rgb(32, 34, 32);
+    height: 1.5vh;
+    width: 7vw; 
+    display: none;
+}
+.tsipika4{
+    background-color: rgb(32, 34, 32);
+    height: 1.5vh;
+    width: 7vw;
+    display: none;
+}
+#searchflower{
+    border-radius: 50px;
+    padding-left: 3%;
+    border: 1px solid rgba(0, 0, 0, 0.253);
+    box-shadow: 0px 0px 40px 10px rgba(68, 68, 68, 0.151) inset;
+}
+#searchflower:focus{
+    outline: none;
+}
+.barrederecherche{
+    position: relative;
+}
+#loop{
+    position: absolute;
+    top: 18%;
+    right: 4%;
+}
+.dropdown{
+    display: none;
+}
+.safidy{
+    background-color: #159133;
+    height: 6vh;
+    width: 21vw;
+}
+/*nen'ny seciton1 rehetra*/
+
+/*section2*/
+.section2{
+    height: auto;
+}
+.vingt-huits-cartes{
+    background-color: #e9f3e6;
+    height: auto;
+}
+.col-sm-6, .col-md-4, .col-lg-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    width: 50vw;
+}
+.carte{
+    background-color: white;
+    height: 95%;
+    width: 100%;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+    display: flex;
+    flex-direction: column;
+}
+.misynysary{
+    height: 60%;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.116);
+}
+.misynyprix{
+    background-color: #159133;
+    height: 5%;
+    width: 10%;
+    min-width: 118px;
+    border-bottom-left-radius: 50px;
+    position: absolute;
+    margin-left: 13.2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+
+}
+.misynyanarana{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+.misynyprops{
+    font-size: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.acheter{
+    position: absolute;
+    top: 2.5vw;
+    margin-left: 26.5%;
+    background-color: #cf0d0d;
+    border:0;
+    height: 6vh;
+    width: 45%;
+    border-radius: 10px;
+    font-size: 130%;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.493);
+    display: none;
+    align-items: center;
+    justify-content: center;
+}
+.propsetbtn{
+    position: relative;
+}
+
+/*section2*/
+
+
+
+
+
+
+
+
+
+/*Media screen rehetra*/
+
+/*nen'ny header rehetra*/
+@media screen and (max-width:900px){
+    .nav{
+        width: 100%;
+    }
+    .dropdowna{
+        display: none;
+    }
+    .menuburger{
+        display: block;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding:0;
+    }
+    .logo{
+        position: absolute;
+        top:4px;
+        left: 25px;   
+    }
+    .a{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        top:0;/*atao top:0; satria tamle iz natao position absolute de ni-remonté par défaut tany ambony
+        zay no matonga anle justify-content: center; otran we tsy mety nefa le .a mits no ni-remonté any ambony*/
+        margin-left: 0;
+        padding-bottom: 30%;
+        background-color: rgba(2, 22, 2, 0.151);
+        backdrop-filter: blur(8px);
+    }
+    .accueil, .propos, .fleurs{
+        margin-top: 30%;
+        color: #03bb31;
+    }
+    .menuburger{
+        z-index: 2;
+    }
+}
+/*nen'ny header rehetra*/
+
+/*nen'ny footer rehetra*/
+@media screen and (max-width:723px){
+    .florablala, .navigationblala, .contactblala, .formulaireblala{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #minform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .miniflora, .contacticon, .miniform, .mininav{
+        display: block;
+    }
+    .miniflora{
+        margin-bottom: 2%;
+    }
+    .contacticon{
+        margin-bottom: 4%;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .mininav{
+        margin-top: 3%;
+    }
+    #minsubmit{
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width:842px){
+    .navigationblala{
+        padding-left: 1.5%;
+    }
+}
+/*nen'ny footer rehetra*/
+
+/*nen'ny section1*/
+@media screen and (max-width:616px){
+    .misynysoratraa{
+        display: none;
+    }
+    .dropdown{
+        display: inline-block;
+    }
+    #searchflower{
+        width: 300px;
+    }
+}
+/*nen'ny section1*/
+
+/*misy ny prix rehetra*/
+@media screen and (max-width:1170px){
+    .misynyprix{
+        margin-left: 12.2%;
+    }
+}
+@media screen and (max-width:1090px){
+    .misynyprix{
+        margin-left: 11%;
+    }
+}
+@media screen and (max-width:992px){
+    .misynyprix{
+        margin-left: 17.5%;
+    }
+}
+@media screen and (max-width:880px){
+    .misynyprix{
+        margin-left: 15.5%;
+    }
+}
+@media screen and (max-width:786px){
+    .misynyprix{
+        margin-left: 14%;
+    }
+}
+@media screen and (max-width:768px){
+    .misynyprix{
+        margin-left: 30%;
+    }
+}
+@media screen and (max-width:699px){
+    .misynyprix{
+        margin-left: 27%;
+    }
+}
+@media screen and (max-width:607px){
+    .misynyprix{
+        margin-left: 24%;
+    }
+}
+@media screen and (max-width:576px){
+    .misynyprix{
+        margin-left: 68.5%;
+    }
+}
+@media screen and (max-width:422px){
+    .misynyprix{
+        margin-left: 63.5%;
+    }
+}
+@media screen and (max-width:366px){
+    .misynyprix{
+        margin-left: 58.5%;
+    }
+}
+/*misy ny prix rehetra*/

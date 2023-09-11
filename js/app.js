@@ -1,0 +1,86 @@
+$(document).ready(function(){
+    $(".seconnecter1").mousedown(function(){
+        $(".seconnecter1").css({"background-color":"#e9f3e6",
+                                "color":"#159133",
+                                "border":"1px solid #159133"})
+    })
+    $(".seconnecter1").mouseup(function(){
+        $(".seconnecter1").css({"background-color":"#159133",
+                                "color":"#e9f3e6",
+                                "border":"0px"})
+    })
+    $(".sinscrire1").mousedown(function(){
+        $(".sinscrire1").css({"background-color":"#159133",
+                                "color":"#e9f3e6",
+                                "border":"0px"})
+    })
+    $(".sinscrire1").mouseup(function(){
+        $(".sinscrire1").css({"background-color":"#e9f3e6",
+                                "color":"#159133",
+                                "border":"1px solid #159133"})
+    })
+    $(".menuburger").mousedown(function(){
+        $(".menuburger").css("transform","scale(1.1)")
+    })
+    $(".menuburger").mouseup(function(){
+        $(".menuburger").css("transform","scale(1)")
+    })
+    $(".menuburger").click(function(){
+        $(".a").slideToggle(700)
+        $(".a").css("display","flex")
+    })
+    $(".bouton3").mousedown(function(){
+        $(".bouton3").css({"background-color":"#e9f3e6",
+                            "color":"#159133",
+                            "border":"1.7px solid #159133"})
+    })
+    $(".bouton3").mouseup(function(){
+        $(".bouton3").css({"background-color":"#159133",
+                            "color":"#e9f3e6"})
+    })
+    $(".bouton4").mousedown(function(){
+        $(".bouton4").css({"background-color":"#159133",
+                            "color":"#e9f3e6"})
+    })
+    $(".bouton4").mouseup(function(){
+        $(".bouton4").css({"background-color":"rgba(255, 255, 255, 0)",
+                            "color":"#159133",
+                            "border":"1.7px solid #159133"})
+    })
+    $(".carte-un").hover(function(){
+        $(".propsetbtn1").children(".misynyprops1").fadeToggle(1000)
+        $(".propsetbtn1").children(".acheter").fadeToggle(1000)
+                                   },
+                            function(){
+        $(".propsetbtn1").children(".misynyprops1").fadeToggle(1000)
+        $(".propsetbtn1").children(".acheter").fadeToggle(1000)
+     })
+     $(".carte-deux").hover(function(){
+        $(".propsetbtn2").children(".misynyprops2").fadeToggle(1000)
+        $(".propsetbtn2").children(".acheter").fadeToggle(1000)
+                                   },
+                            function(){
+        $(".propsetbtn2").children(".misynyprops2").fadeToggle(1000)
+        $(".propsetbtn2").children(".acheter").fadeToggle(1000)
+     })
+     $(".carte-trois").hover(function(){
+        $(".propsetbtn3").children(".misynyprops3").fadeToggle(1000)
+        $(".propsetbtn3").children(".acheter").fadeToggle(1000)
+                                   },
+                            function(){
+        $(".propsetbtn3").children(".misynyprops3").fadeToggle(1000)
+        $(".propsetbtn3").children(".acheter").fadeToggle(1000)
+     })
+     $(".acheter").mousedown(function(){
+         $(".acheter").css("transform","scale(1.1)")
+     })
+     $(".acheter").mouseup(function(){
+        $(".acheter").css("transform","scale(1)")
+    })
+    $(".envoyercoms").mousedown(function(){
+        $(".envoyercoms").css("transform","translate(1px,1px)")
+    })
+    $(".envoyercoms").mouseup(function(){
+        $(".envoyercoms").css("transform","translate(0px,0px)")
+    })
+})

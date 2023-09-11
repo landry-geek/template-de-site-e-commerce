@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/connecter.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css.map">
+    <title>Site Web Flora</title>
+</head>
+<body>
+    <!--Headear-->
+    <header>
+        <div class="logo">
+            <img src="img/logo.png" alt="logo de flora">
+        </div>
+        <div class="nav">
+            <div class="a">
+            <a href="./index.html" class="accueil">Accueil</a>
+            <a href="./index.html" class="propos">A propos</a>
+            <a href="./fleurs.html" class="fleurs">Fleurs</a>
+            </div>
+           <div class="dropdowna">
+                <span class="boribory">I</span>
+                <div class="dropdowna-content">
+                    <div class="contenupli">
+                        <div class="info">
+                            <div class="boribory2">I</div>
+                            <div class="email" style="font-weight: bold; max-width: 300px;">email@gmail.com</div>
+                        </div>
+                        <div class="bouton1et2">
+                            <a href="./connecter.html" class="seconnecter1">Se Connecter</a>
+                            <span>ou</span>
+                            <a href="./inscrire.html" class="sinscrire1">S'inscrire</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <span class="menuburger">
+                <img src="img/menuburger.png" alt="Menu" class="imgmenuburger"/>
+            </span>
+        </div>
+
+    </header>
+
+        <!--section1-->
+        <section class="section1">
+            <div class="rectangle">
+            <div class="misymsg">
+                Pour pouvoir acheter les produits veuillez vous connecter
+            </div>
+            <form method="POST" action="#" class="formulaire">
+                <label for="emaila">
+                    <span class="srt">Adresse email</span><br>
+                    <input type="email" name="emaila" id="emaila" placeholder="email@gmail.com">
+                </label>
+                <label for="mdp">
+                    <span class="srt">Mot de passe</span><br>
+                    <input type="password" name="mdp" id="mdp" placeholder="mot de passe">
+                </label>
+                <div class="misaz">
+                <input type="submit" value="Se connecter" id="connecter">
+                </div>
+            </form>
+            <a href="#" id="inscrire">S'inscrire</a>
+            </div>
+        </section>
+        <!--section1-->
+
+
+
+    <!--footer-->
+    <footer>
+        <!--rehefa grand ecran-->
+        <div class="florablala">
+            <div class="logoblala">FLORA</div>
+            <div class="textblala">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Odit, quisquam minus. Corrupti iure commodi eum odio doloremque sunt pariatur earum sit eius labore, itaque fuga voluptatibus magnam amet soluta saepe</div>
+        </div>
+
+        <div class="navigationblala">
+            <div class="navblala">NAVIGATION</div>
+            <a class="accueilblala" href="#">Accueil</a>
+            <a class="aproposblala" href="#">A propos</a>
+            <a class="fleursblala" href="#">Fleurs</a>
+        </div>
+
+        <div class="contactblala">
+            <div class="contblala">CONTACT</div>
+            <div class="text2blala">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil sapiente dolore consectetur facere enim natus reiciendis sint ut quisquam molestias deleniti qui, atque perferendis assumenda eveniet, excepturi iusto laudantium eum</div>
+        </div>
+
+        <div class="formulaireblala">
+            <form method="POST" action="#" id="form">
+                <label for="email">
+                    Email<br>
+                    <input type="email" name="email" id="email" placeholder="email@gmail.com">
+                </label>
+                <label for="pwd">
+                    Mot de Passe<br>
+                    <input type="password" name="pwd" id="pwd" placeholder="mot de passe">
+                </label>
+                <div class="misynymessage"></div>
+                <input type="submit" name="submit" id="submit" value="Se connecter">
+            </form>
+        </div>
+
+        <!--rehefa mobile-->
+        <div class="miniflora">FLORA</div>
+        <div class="contacticon">
+            <img src="img/localisation.png" alt="localisation" height="28vh">
+            <img src="img/phone.png" alt="phone" height="28vh" >
+            <img src="img/email.png" alt="email" height="28vh" >
+            <img src="img/facebook.png" alt="facebook" height="28vh">
+        </div>
+        <div class="miniform">
+            <form action="POST" action="#" id="minform">
+                <div class="emailetpwd">
+                <input type="email" id="minemail" placeholder="email@gmail.com">
+                <input type="password" id="minpwd" placeholder="mot de passe"><br>
+                </div>
+                <div class="misynymessagemin" style="color: red;"></div>
+                <input type="submit" id="minsubmit" value="Se connecter">
+            </form>
+        </div>
+        <div class="mininav">
+            <a href="#" class="minaccueil">Accueil</a><span class="tsipikalava"> | </span>
+            <a href="#" class="minpropos">A propos</a><span class="tsipikalava"> | </span>
+            <a href="#" class="minfleur">Fleurs</a>
+        </div>
+    </footer>
+
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js.map"></script>
+    <script src="js/connecter.js"></script>
+</body>
+</html>

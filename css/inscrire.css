@@ -1,0 +1,361 @@
+/*Nen'ny header rehetra*/
+header{
+    background-color: #31382e;
+    height: 10vh;
+    display: flex;
+    justify-content:space-around;
+    align-items:center;
+}
+.nav{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.a{
+    width: 70%;
+    margin-left: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+.accueil, .propos, .fleurs{
+    font-size: 3.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: #159133;
+    font-weight: bold;
+}
+.accueil:hover, .propos:hover, .fleurs:hover{
+    color: #D0EBC7;
+}
+.boribory, .boribory2{
+    border: 0px solid black;
+    border-radius: 50%;
+    background-color: #159133;
+    width: 4vw;
+    height: 8vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+}
+.boribory:hover{
+   background-color: #D0EBC7; 
+}
+
+.dropdowna{
+    position: relative;/* atao relative amle dropdown-content hatao absolute le atao devant*/
+    display: inline-block;/*atao inline-block mino ah fa azoko antsaina sady inline le izy nefa izy block kkkk*/
+}
+.dropdowna-content{
+    display: none;
+    position: absolute;
+    z-index: 1;
+    height: 40vh;
+    width: 18vw;
+    background-color:#e9f3e6;
+    border-radius: 10%;
+    box-shadow: 5px 8px 20px black;
+}
+.dropdowna:hover .dropdowna-content{/*c-à-d ref mihover am dropdown de dropdown-content no mi-assumer ny action
+    zay no dikanle espace */
+    display: block;
+}
+.contenupli{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.email{
+    font-size: 80%;
+}
+.bouton1et2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 40%;
+    justify-content: space-around;
+}
+.seconnecter1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    background-color: #159133;
+    height: 40%;
+    width: 120%;
+    border: 0px;
+    border-radius: 8%;
+    color: #e9f3e6;
+    font-size: 120%;
+}
+.sinscrire1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    border: 1.7px solid #159133;
+    color: #159133;
+    height: 40%;
+    width: 120%;
+    border-radius: 8%;
+    font-size: 120%;
+}
+.menuburger{
+    display: none;
+    width: 10%;
+    position: absolute;
+    top:11px;/*rehefa hilalao top sy left right de tsy maintsy manao position absolute*/
+    right: 20px;
+}
+/*Nen'ny header rehetra*/
+
+
+/*Nen'ny footer  rehetra*/
+footer{
+    background-color: #31382e;
+    height: auto;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.navigationblala{
+    margin-top: 0.8%;
+    padding-top: 0;
+    height: auto;
+    min-height: 31vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.florablala, .contactblala{
+    margin-top: 0.8%;
+    height: auto;
+    min-height: 31vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+.textblala, .text2blala{
+    margin-top: 2%;
+}
+.formulaireblala{
+    height: 40vh;
+    width: 20vw;
+    display: flex;
+    flex-direction: column;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+#email, #pwd{
+    width: 85%;
+}
+#submit{
+    width: 50%;
+    min-width: 104px;
+}
+.logoblala, .navblala, .contblala{
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+.navigationblala{
+    padding-left: 5%;
+}
+.accueilblala, .aproposblala, .fleursblala{
+    margin-top: 5%;
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+.misynymessage{
+    font-size: 0.7rem;
+    color: red;
+}
+.miniflora{
+    font-size: 2rem;
+    font-weight: 600;
+}
+.minaccueil, .minpropos, .minfleur{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: white;
+}
+.miniflora, .contacticon, .miniform, .mininav{
+    display: none;
+}
+/*Nen'ny footer  rehetra*/
+
+/*Section1*/
+.section1{
+    height: 90vh;
+    background-color: #e9f3e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle{
+    background-color: white;
+    height: 90vh;
+    width: 35vw;
+    min-width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+}
+.minirecta{
+    border: 2px dashed black;
+    height: 30vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.minirectasolid{
+    border: solid;
+}
+.deposer{
+    width: 80%;
+    text-align: center;
+}
+.misyThumbnail{
+    height: 90%;
+    width: 50%;
+    background-color: rgb(184, 178, 178);
+    border-radius: 10px;
+    background-size: cover;
+    overflow: hidden;/*hanakomana ny debordement anle image*/
+    position: relative;/*satria hisy anle data-label iny eo alohany*/
+    display: none;
+    /*background-image: url(../img/fleur2.jpg); Mety izy eto*/
+}
+.misyThumbnail::after{
+    /*ny asan'ny after mitovy amle tam natao recherche iny ihany fa eto fotsiny le attribut data-label no
+    atao fanampy fa tsy texte tsotra*/
+    content: attr(data-label);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.404);
+    width: 100%;
+    text-align: center;    
+}
+#fichi{
+    display: none;
+}
+/*Section1*/
+
+
+
+
+/*Media screen rehetra*/
+
+/*nen'ny header rehetra*/
+@media screen and (max-width:900px){
+    .nav{
+        width: 100%;
+    }
+    .dropdowna{
+        display: none;
+    }
+    .menuburger{
+        display: block;
+    }
+    header{
+        display: flex;
+        justify-content: space-between;
+        padding:0;
+    }
+    .logo{
+        position: absolute;
+        top:4px;
+        left: 25px;   
+    }
+    .a{
+        display: none;
+        z-index: 1;
+        position: absolute;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 100vh;
+        top:0;/*atao top:0; satria tamle iz natao position absolute de ni-remonté par défaut tany ambony
+        zay no matonga anle justify-content: center; otran we tsy mety nefa le .a mits no ni-remonté any ambony*/
+        margin-left: 0;
+        padding-bottom: 30%;
+        background-color: rgba(2, 22, 2, 0.151);
+        backdrop-filter: blur(8px);
+    }
+    .accueil, .propos, .fleurs{
+        margin-top: 30%;
+        color: #03bb31;
+    }
+    .menuburger{
+        z-index: 2;
+    }
+}
+/*nen'ny header rehetra*/
+
+/*nen'ny footer rehetra*/
+@media screen and (max-width:723px){
+    .florablala, .navigationblala, .contactblala, .formulaireblala{
+        display: none;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #minform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .miniflora, .contacticon, .miniform, .mininav{
+        display: block;
+    }
+    .miniflora{
+        margin-bottom: 2%;
+    }
+    .contacticon{
+        margin-bottom: 4%;
+        width: 60%;
+        display: flex;
+        justify-content: space-around;
+    }
+    .mininav{
+        margin-top: 3%;
+    }
+    #minsubmit{
+        margin-top: 3%;
+    }
+}
+@media screen and (max-width:842px){
+    .navigationblala{
+        padding-left: 1.5%;
+    }
+}
+/*nen'ny footer rehetra*/
+
+/*Section1*/
+@media screen and (max-width:400px){
+    .rectangle{
+        min-width: 300px;
+    }
+}
+/*Section1*/
